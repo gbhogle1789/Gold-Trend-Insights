@@ -1,6 +1,6 @@
  
 
-Gold Trend Insights system 
+**Gold Trend Insights system **
 
 Problem Statement 
 
@@ -22,7 +22,7 @@ While there are many models for predicting stock prices, gold trading requires a
 
 Investors need a specialized application that uses historical data and analyzes the various factors affecting gold prices. This app would help users make informed decisions by providing accurate predictions and insights specifically designed for the gold market. 
 
-Key Objectives: 
+**Key Objectives:** 
 
 Understand the Unique Factors: Identify and analyze the specific factors influencing gold prices, distinct from those affecting stocks. 
 
@@ -38,7 +38,7 @@ Solution Proposal: Gold Trend Insights
 
 We propose the development of a Gold Trend Insights program designed to provide users with daily and hourly gold price predictions over specified time frames. This system aims to empower investors by delivering timely, data-driven insights that enhance decision-making and maximize investment potential in the gold market. 
 
-Key Features: 
+**Key Features:** 
 
 1. Predictive Analytics Engine 
 
@@ -92,7 +92,7 @@ Architecture:
 
 Data Collection: The system will pull data from various gold data sources using API and bring it into data store for model inputs.  
 
-AI/ML Algorithms: 
+**AI/ML Algorithms:** 
 
 We are leveraging FBProphet and LSTM (Long Short-Term Memory) models for gold price prediction, combining the strengths of both approaches to enhance forecasting accuracy. FBProphet is particularly effective for capturing seasonal patterns and trends in time series data, making it ideal for modeling gold price fluctuations influenced by various temporal factors. Meanwhile, the LSTM model excels at learning complex temporal dependencies, allowing it to effectively analyze historical price data and recognize intricate patterns over longer periods. By integrating these two methodologies, we can create a robust predictive framework that not only identifies trends but also adapts to the inherent volatility of the gold market, ultimately providing more reliable and actionable insights for investors. 
 
@@ -108,7 +108,7 @@ Increased Investment Confidence: By utilizing a sophisticated system tailored to
 
 Enhanced Profitability: With timely predictions and analysis, users can better capitalize on market movements, potentially increasing their returns on investment. 
 
-Conclusion 
+**Conclusion **
 
 The Automated Gold Trading System (AGTS) is designed to be a robust tool for investors in the gold market. By integrating advanced predictive analytics, real-time data analysis, and comprehensive sentiment evaluation, the AGTS will empower users to navigate the complexities of gold trading effectively. We believe this system will significantly enhance users’ ability to make informed investment decisions, ultimately maximizing their potential returns in a volatile market. 
 
